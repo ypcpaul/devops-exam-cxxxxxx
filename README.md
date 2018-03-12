@@ -8,5 +8,6 @@ DevOps Exam (micro services with CI/CD implementation)
 -  Created a docker compose file to run both of these images
 
 
-
+### PHP
+-  Used date as seed for consistent resulting image per date
 
