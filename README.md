@@ -18,6 +18,6 @@ DevOps Exam (micro services with CI/CD implementation)
 - Enabled current repository on TravisCI, define build with .travis.yml.  Travis CI project [here](https://travis-ci.org/ypcpaul/devops-exam-cxxxxxx)
 - Create project on sloppy.io.  Use pushed docker image above on sloppy.io, set domain.  Test if it works.  [Sample test URL](https://ypaulc-cxxxxxx-exam.sloppy.zone/image.php?date=2018-10-10)
 - Integrate TravisCI with sloppy.io.
-- Deploy viewer-service/index.html to GitHub Pages
+- Deploy viewer-service/index.html to [GitHub Pages](http://putolaruan.com/devops-exam-cxxxxxx/)
 - Make changes, push to GitHub, verify TravisCI build and deployment to sloppy and GH pages
 
