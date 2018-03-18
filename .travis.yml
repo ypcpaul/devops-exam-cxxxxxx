@@ -15,3 +15,11 @@ after_success:
   - chmod +x sloppy
   - ./sloppy change -v docker_image:"$DOCKER_IMAGE:latest" -v domain:"$DOMAIN" $SLOPPY_FILE
 
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  on:
+    branch: master
+  local-dir: viewer_service
