@@ -20,4 +20,4 @@ DevOps Exam (micro services with CI/CD implementation)
 - Integrate TravisCI with sloppy.io.
 - Deploy viewer-service/index.html to [GitHub Pages](http://putolaruan.com/devops-exam-cxxxxxx/)
 - Make changes, push to GitHub, verify TravisCI build and deployment to sloppy and GH pages
-
+- Created two PRs, one succeeding and one failing on Travis CI
