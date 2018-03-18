@@ -9,6 +9,7 @@ before_install:
 
 script:
   - docker ps | grep -q $DOCKER_IMAGE
+  - sed -i -e "s/localhost/$DOMAIN/g" viewer-service/index.html
 
 after_success:
   - curl -k -L https://files.sloppy.io/sloppy-`uname -s`-`uname -m` > sloppy
