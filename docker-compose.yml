@@ -1,10 +1,10 @@
 version: '3'
 services:
   image-service:
-    image: image-service
+    image: putolaruan/devops_exam_cxxxxxx
     ports:
       - "80:80"
   viewer:
-    image: viewer-service
+    image: putolaruan/devops_exam_cxxxxxx_2
     ports:
       - "8080:80"
