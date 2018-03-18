@@ -18,3 +18,5 @@ for($row = 1; $row <= $height; $row++) {
 header('content-type: image/png');
 header(sprintf('content-disposition: inline; filename="%s.png"', time()));
 imagepng($image);
+
+?
