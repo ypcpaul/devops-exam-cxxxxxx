@@ -5,7 +5,7 @@
             "id": "image-service",
             "apps": [
                 {
-                    "id": "php",
+                    "id": "php-app",
                     "domain": {
                         "uri": "$domain"
                     },
@@ -14,7 +14,7 @@
                     "instances": 1,
                     "port_mappings": [
                         {
-                            "container_port": 80
+                            "container_port": 8080
                         }
                     ]
                 }
