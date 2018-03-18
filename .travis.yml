@@ -15,13 +15,11 @@ before_install:
   - docker push $DOCKER_IMAGE_SERVICE:latest
   - docker-compose up -d
 
-before_script:
+script:
   - php -l ./image-service/image.php
   - sh test.sh
   - docker ps | grep -q $DOCKER_IMAGE_SERVICE
   - docker ps | grep -q $DOCKER_VIEW_SERVICE
-
-script:
   - sed -i -e "s/localhost/$DOMAIN/g" viewer-service/index.html
 
 after_success:
