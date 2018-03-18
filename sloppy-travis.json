@@ -14,7 +14,7 @@
                     "instances": 1,
                     "port_mappings": [
                         {
-                            "container_port": 8080
+                            "container_port": 80
                         }
                     ]
                 }
